@@ -1,2 +1,2 @@
-export * from './useContract'
-export * from './call'
+export * from './useContract';
+export * from './call';

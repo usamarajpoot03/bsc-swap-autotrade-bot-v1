@@ -1,4 +1,3 @@
 describe('#chunkArray', () => {
-    it('size 1', () => {
-    })
-})
+  it('size 1', () => {});
+});
