@@ -53,7 +53,7 @@ enum SellType {
 }
 
 const task = {
-    tradeAmount: "0.002",//交换3个
+    tradeAmount: config.TRADE_AMOUNT,//交换3个
     swapOptions: {
         feeOnTransfer: false,
         allowedSlippage: new Percent(JSBI.BigInt(Math.floor(1200)), BIPS_BASE), //12%
